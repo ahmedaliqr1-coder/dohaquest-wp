@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Facebook" transform="translate(-0.001 0.485)">
+    <circle id="Bg" cx="25" cy="25" r="25" transform="translate(0.001 -0.485)" fill="#3c5a9a"/>
+    <path id="Icon" d="M336.05,92.677h-3.793c-2.251,0-4.754.947-4.754,4.209.011,1.137,0,2.225,0,3.451h-2.6v4.143h2.684v11.928h4.932V104.4h3.256l.295-4.076h-3.635s.008-1.813,0-2.34c0-1.289,1.341-1.215,1.422-1.215.638,0,1.88,0,2.2,0V92.677Z" transform="translate(-305.351 -79.856)" fill="#fff"/>
+  </g>
+</svg>

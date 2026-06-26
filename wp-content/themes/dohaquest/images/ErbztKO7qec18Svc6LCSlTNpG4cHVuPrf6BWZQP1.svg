@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50.051" height="50" viewBox="0 0 50.051 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b2ff"/>
+      <stop offset="1" stop-color="#006aff"/>
+    </linearGradient>
+  </defs>
+  <g id="Facebook-m" transform="translate(-50 -50.201)">
+    <path id="Bg" d="M75.026,50.2C60.927,50.2,50,60.518,50,74.452A23.714,23.714,0,0,0,57.86,92.39a2.013,2.013,0,0,1,.675,1.424l.136,4.447a2.005,2.005,0,0,0,2.81,1.771l4.965-2.188a2,2,0,0,1,1.334-.1,27.244,27.244,0,0,0,7.246.961c14.1,0,25.026-10.317,25.026-24.251S89.124,50.2,75.026,50.2Z" transform="translate(0 0)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+    <path id="Icon" d="M128.522,196.629l6.038-9.568a3.088,3.088,0,0,1,4.458-.822l4.8,3.6a1.235,1.235,0,0,0,1.485,0l6.484-4.916a.975.975,0,0,1,1.414,1.3l-6.033,9.564a3.088,3.088,0,0,1-4.458.822l-4.8-3.6a1.235,1.235,0,0,0-1.485,0l-6.488,4.92A.975.975,0,0,1,128.522,196.629Z" transform="translate(-66.056 -116.428)" fill="#fff" fill-rule="evenodd"/>
+  </g>
+</svg>

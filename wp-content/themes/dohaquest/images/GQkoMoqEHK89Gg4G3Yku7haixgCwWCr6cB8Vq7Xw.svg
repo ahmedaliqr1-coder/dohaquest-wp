@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Email" transform="translate(-1217 -915)">
+    <circle id="Bg" cx="25" cy="25" r="25" transform="translate(1217 915)" fill="#45295f"/>
+    <path id="Icon" d="M21.9,6H5.1A2.1,2.1,0,0,0,3.01,8.1L3,20.7a2.106,2.106,0,0,0,2.1,2.1H21.9A2.106,2.106,0,0,0,24,20.7V8.1A2.106,2.106,0,0,0,21.9,6Zm0,4.2-8.4,5.25L5.1,10.2V8.1l8.4,5.25L21.9,8.1Z" transform="translate(1229 926)" fill="#fff"/>
+  </g>
+</svg>

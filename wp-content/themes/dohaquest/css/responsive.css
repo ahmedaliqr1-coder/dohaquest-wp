@@ -1,0 +1,1146 @@
+@media (max-width: 1620px) {
+    /* HEADER */
+    .header .inner-container .nav-menu {
+        padding: 0 10px;
+    }
+    .header .inner-container .nav-menu li {
+        padding: 0 10px 0 0;
+    }
+}
+
+@media (max-width: 1570px) {
+    /* HEADER */
+    .header .inner-container .nav-menu li a {
+        font-size: 13px;
+    }
+    .header .inner-container .tickets-btn {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .header .inner-container .search-section .search-btn {
+        padding: 0 20px;
+    }
+    .header .inner-container .lang-switcher {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1430px) {
+    /* HEADER */
+    .header .inner-container .nav-menu li a {
+        font-size: 12px;
+    }
+    .header .inner-container .lang-switcher li {
+        padding: 0 10px 0 0;
+        font-size: 14px;
+    }
+    .header .inner-container .search-section .search-btn {
+        padding: 0 15px;
+    }
+    .header .inner-container .logo {
+        padding: 5px 0;
+    }
+
+    /* TRIPADVISOR MODAL */
+    .overlay-tripadvisor-modal
+        .tripadvisor-modal
+        .modal-body
+        .ratings
+        .stars
+        .label {
+        padding: 0 0 0 10px;
+    }
+    .overlay-tripadvisor-modal .tripadvisor-modal .modal-body .review,
+    .overlay-tripadvisor-modal .tripadvisor-modal .modal-body .ratings {
+        width: 50%;
+    }
+
+    /* OUR CHARACTERS */
+    .our-characters .custom-btn-prev {
+        left: -50px;
+    }
+    .our-characters .custom-btn-next {
+        right: -50px;
+    }
+}
+
+@media (max-width: 1330px) {
+    /* HEADER */
+    .header .inner-container .menu-trigger {
+        display: flex;
+    }
+    .header .inner-container .tickets-btn {
+        font-size: 12px;
+        padding: 0 20px;
+    } /* was 16px */
+    .header .inner-container .search-section .search-btn {
+        padding: 0 25px;
+    }
+    .header .inner-container .nav-menu.desktop-menu {
+        display: none;
+    }
+    .header .inner-container .nav-side {
+        margin: 0 0 0 auto;
+    }
+
+    /* VISITS-FACILITIES */
+    .visits-facilities .opening-hours .schedule .schedule-card .text {
+        padding: 0 0 0 15px;
+    }
+    .visits-facilities .opening-hours .schedule .schedule-card {
+        padding: 0 0 30px 30px;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* HEADER */
+    .overlay-share-modal .social-modal ul {
+        padding: 30px;
+        text-align: center;
+    }
+    .overlay-share-modal .social-modal ul li {
+        padding: 0 5px 5px 5px;
+    }
+
+    /* TRIPADVISOR MODAL */
+    .overlay-tripadvisor-modal .tripadvisor-modal .modal-body .review,
+    .overlay-tripadvisor-modal .tripadvisor-modal .modal-body .ratings {
+        width: 50%;
+    }
+
+    /* CELEBRATE - BOOKINGS */
+    .celebrate .cb-card .caption {
+        padding: 20px 60px;
+    }
+    .celebrate .cb-card.colored .action-btns {
+        display: block;
+    }
+    .celebrate .cb-card.colored .action-btns a:first-of-type {
+        margin: 0;
+    }
+    .celebrate .cb-card.colored .action-btns a {
+        margin: 10px 0 0 0;
+        text-transform: lowercase;
+    }
+
+    /* DINE MENU */
+    .dine-menu .dine-item .caption {
+        padding: 20px 30px;
+    }
+
+    /* CONTACT US */
+    .contact-us .reach-section .form {
+        width: 100%;
+    }
+    .contact-us .reach-section .career {
+        width: 100%;
+        margin: 20px 0 0 0;
+        text-align: center;
+    }
+    .contact-us .reach-section .career .career-links {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .contact-us .reach-section .career .career-links .career-card {
+        width: 49%;
+        padding: 40px 30px;
+    }
+    .contact-us .reach-section .career .career-links .career-card:last-of-type {
+        width: 100%;
+    }
+    .contact-us .reach-section .career .career-card .description .link.email {
+        margin: auto;
+    }
+
+    /* OUR CHARACTERS */
+    .custom-modal .modal-dialog .modal-content .modal-body img.character {
+        object-fit: contain;
+    }
+
+    /* RIDES INFO */
+    .ride-info .info-container .container .caption {
+        width: 75%;
+    }
+
+    /* CELEBRATE QUEST & GROUPING */
+    .celebrate .cb-card .caption a {
+        margin: 15px auto 10px 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    /* SHOP */
+    .single-cat .list-items .product-item .caption {
+        height: 75px;
+    }
+    .single-cat .list-items .product-item .caption span {
+        font-size: 15px;
+        line-height: 1.4;
+        position: absolute;
+        width: 80%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .single-cat .list-items .product-item .caption span.button {
+        width: auto;
+    }
+}
+
+@media (max-width: 1150px) {
+    /* TRIPADVISOR MODAL */
+    .overlay-tripadvisor-modal
+        .tripadvisor-modal
+        .modal-body
+        .ratings
+        .rate-reviews {
+        padding: 0;
+        display: block;
+    }
+
+    /* CUSTOM SHOP MODAL */
+    .custom-modal .modal-dialog .modal-content .modal-body {
+        padding: 0;
+    }
+
+    /* OUR CHARACTERS */
+    .our-characters .custom-btn-prev {
+        left: 0px;
+    }
+    .our-characters .custom-btn-next {
+        right: 0px;
+    }
+    #characters .fixed-title {
+        top: 10%;
+        width: 100%;
+    }
+    #characters .bubble {
+        padding: 15px;
+        top: 50%;
+    }
+    #characters .bubble img {
+        display: block;
+        margin: auto auto 20px auto;
+    }
+    #characters .bubble .caption {
+        width: 100%;
+    }
+
+    /* RIDES */
+    .rides .rides-slider {
+        margin: 100px 0 50px 0;
+    }
+    .rides .rides-slider .custom-btn-prev {
+        left: 25px;
+        transform: translateY(-50%);
+    }
+    .rides .rides-slider .custom-btn-next {
+        right: 25px;
+        transform: translateY(-50%);
+    }
+}
+
+@media (max-width: 1030px) {
+    /* SHOWS & EVENTS */
+    .shows-events .events .events-container .custom-btn-next {
+        top: 50%;
+        right: 10px;
+        width: 45px;
+        border-radius: 30px;
+    }
+    .shows-events .events .events-container .custom-btn-prev {
+        top: 50%;
+        left: 10px;
+        width: 45px;
+        border-radius: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    /* HEADER */
+    .header .inner-container {
+        padding: 0 0 0 15px;
+    }
+    .header .inner-container .search-section .search-btn,
+    .header .inner-container .lang-switcher {
+        display: none;
+    }
+
+    /* RIDES INFO */
+    .ride-info {
+        height: 580px;
+    }
+    .ride-info .info-container .container .caption {
+        height: auto;
+        width: 100%;
+    }
+
+    /* SIDE SECTION */
+    .side-section .side-btn:hover {
+        background: #fff;
+    }
+
+    /* HOURS MODAL */
+    .overlay-hours-modal .hours-modal .schedule {
+        display: block;
+    }
+    .overlay-hours-modal .hours-modal .schedule .custom-card {
+        width: 100%;
+    }
+
+    /* TRIPADVISOR MODAL */
+    .overlay-tripadvisor-modal .tripadvisor-modal .modal-body {
+        display: block;
+    }
+    .overlay-tripadvisor-modal .tripadvisor-modal .modal-body .ratings,
+    .overlay-tripadvisor-modal .tripadvisor-modal .modal-body .review {
+        display: block;
+        width: 100%;
+        padding: 20px 0 0 0;
+    }
+    .overlay-tripadvisor-modal
+        .tripadvisor-modal
+        .modal-body
+        .ratings
+        .rate-reviews {
+        display: inline-block;
+        padding: 0 0 0 20px;
+    }
+
+    /* WHO WE ARE */
+    .who-card,
+    .rides .who-card {
+        align-items: stretch;
+    }
+    .who-card .caption,
+    .rides .who-card .caption {
+        padding: 20px 40px;
+    }
+
+    /* CELEBRATE - BOOKINGS */
+    .celebrate .cb-card {
+        align-items: stretch;
+    }
+    .celebrate .cb-card .caption {
+        padding: 20px 30px;
+    }
+    .celebrate .cb-card .caption a,
+    .celebrate .cb-card.colored .action-btns a {
+        padding: 10px 15px;
+    }
+
+    /* SHOP */
+    .shop a.cat-item {
+        width: 100%;
+    }
+    .shop a.cat-item img {
+        height: 300px;
+    }
+
+    /* CUSTOM SHOP MODAL */
+    .custom-modal .modal-dialog .modal-content .modal-body {
+        display: block;
+    }
+    .custom-modal .modal-dialog .modal-content .modal-body img {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    .custom-modal .modal-dialog .modal-content .modal-body img.event {
+        width: 50%;
+    }
+    .custom-modal .modal-dialog .modal-content .modal-body .description {
+        text-align: center;
+    }
+    .custom-modal
+        .modal-dialog
+        .modal-content
+        .modal-body
+        .description
+        span.small {
+        margin: 0 auto 10px auto;
+    }
+    .custom-modal .modal-dialog .modal-content .modal-body img.character {
+        width: 60%;
+    }
+    .custom-modal
+        .modal-dialog
+        .modal-content
+        .modal-body
+        .description
+        .time
+        p {
+        padding: 0;
+        width: 100%;
+    }
+    .custom-modal
+        .modal-dialog
+        .modal-content
+        .modal-body
+        .description
+        .time
+        img {
+        display: block;
+        margin: auto auto 10px auto;
+    }
+    .single-cat .list-items .product-item {
+        width: 49%;
+    }
+    .single-cat .list-items .product-item figure {
+        max-height: 300px;
+    }
+    .single-cat .list-items .product-item figure img {
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .single-cat .related a.cat-item {
+        width: 49%;
+        margin: 0 0 20px 0;
+    }
+    .single-cat .related a.cat-item figure {
+        height: 250px;
+    }
+    .single-cat .related a.cat-item span {
+        font-size: 14px;
+    }
+    .single-cat .related a.cat-item:last-of-type {
+        margin: 0 0 20px 0;
+    }
+
+    /* DINE MENU */
+    .dine-menu .dine-item .caption .action-btns,
+    .dine-menu .dine-item .caption .action-btns a,
+    .dine-menu .dine-item .caption .action-btns a:first-of-type {
+        display: block;
+    }
+    .dine-menu .dine-item .caption .web-btn {
+        width: fit-content;
+        margin: 20px 0 0 0;
+    }
+
+    /* CONTACT US */
+    .contact-us .hovering-cards .card img {
+        margin: auto;
+    }
+    .contact-us .hovering-cards .card .description {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+    .contact-us .hovering-cards .card .description a.button {
+        margin: 10px auto 0 auto;
+    }
+
+    /* SHOWS-EVENTS */
+    .shows-events .events .events-container .swiper-slide img.main-img {
+        width: 50%;
+    }
+    .shows-events .events .events-container .swiper-slide .description {
+        width: 50%;
+        padding: 0 30px;
+    }
+
+    /* OUR CHARACTERS */
+    .our-characters .custom-btn-prev {
+        left: -75px;
+    }
+    .our-characters .custom-btn-next {
+        right: -75px;
+    }
+    .our-characters .characters-section {
+        padding: 0;
+    }
+    .our-characters .characters-section .swiper-slide.swiper-slide-active {
+        transform: scale(1);
+    }
+    .our-characters .characters-section .swiper-slide {
+        opacity: 1;
+    }
+    .our-characters .characters-section .swiper-slide .caption a {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    /* RIDES */
+    /*.rides .rides-slider .custom-btn-prev {left:49%;transform: translateX(-100%);top:30%;}*/
+    /*.rides .rides-slider .custom-btn-next {right:49%;transform: translateX(100%);top:30%;}*/
+    .park-map .buttons li,
+    .rides .buttons li,
+    .faqs .buttons li {
+        margin-bottom: 10px;
+        width: 50%;
+        text-align: center;
+    }
+    .park-map .buttons li a,
+    .rides .buttons li a,
+    .faqs .buttons li a {
+        width: auto;
+        height: auto;
+    }
+
+    /* GALLERY */
+    .gallery .h-100 .in-row-items:nth-of-type(3) {
+        margin-bottom: 1.5rem !important;
+    }
+
+    /* FOOTER */
+    footer .top-footer .row.narrow-row {
+        max-width: 100%;
+    }
+    footer .top-footer .row.narrow-row .newsletter-title,
+    footer .top-footer .row.narrow-row .newsletter-subtitle {
+        text-align: center;
+    }
+    footer .bottom-footer .widgets,
+    footer .bottom-footer .widgets:first-of-type {
+        border-right: none;
+        padding: 15px;
+        text-align: center;
+        position: relative;
+    }
+    footer .bottom-footer .widgets::after,
+    footer .bottom-footer .widgets:first-of-type::after {
+        content: "";
+        width: 50%;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.2);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    footer .bottom-footer .widgets:last-of-type {
+        padding: 15px;
+        position: unset;
+    }
+    footer .bottom-footer .widgets:first-of-type {
+        padding: 0 15px 15px 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section-pagination {
+        display: none;
+    }
+
+    /* RIDES INFO */
+    .ride-info {
+        height: 85%;
+    }
+    .ride-info .info-container .col-12 {
+        display: flex;
+        align-items: center;
+    }
+    .ride-info .info-container .container .caption {
+        text-align: center;
+        padding: 20px;
+    }
+    .ride-info .info-container .container .caption .features-list li {
+        width: 48%;
+    }
+    .ride-info .info-container .container .caption .features-list li img {
+        display: block;
+        margin: auto auto 10px auto;
+    }
+    .ride-info
+        .info-container
+        .container
+        .caption
+        .features-list
+        li
+        .feature-details {
+        padding: 0;
+        width: 100%;
+    }
+
+    /* CHARACTERS - HOME */
+    #characters .fixed-title {
+        text-align: center;
+        font-size: 40px;
+        top: 10%;
+        width: 100%;
+    }
+
+    .gallery .gallery-slider-container .caption h2 {
+        width: 85%;
+        font-size: 30px;
+    }
+    .gallery .gallery-item .overlay-video img.play-btn {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* HOURS MODAL */
+    .overlay-hours-modal .hours-modal {
+        width: 90%;
+        padding: 60px 20px 20px 20px;
+    }
+    .overlay-hours-modal .hours-modal .schedule {
+        display: block;
+    }
+    .overlay-hours-modal .hours-modal .schedule .custom-card {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    /* TRIPADVISOR MODAL */
+    .overlay-tripadvisor-modal .tripadvisor-modal .modal-body .ratings .rate {
+        font-size: 70px;
+        display: block;
+    }
+    .overlay-tripadvisor-modal
+        .tripadvisor-modal
+        .modal-body
+        .ratings
+        .rate-reviews {
+        padding: 0;
+    }
+
+    /* CUSTOM SHOP MODAL */
+    .custom-modal .modal-dialog {
+        max-width: 90%;
+        margin: auto;
+    }
+    .custom-modal .modal-dialog .modal-content .modal-body img {
+        width: 75%;
+    }
+    .custom-modal .modal-dialog .modal-content .modal-body img.event {
+        width: 100%;
+    }
+    .custom-modal .modal-dialog .modal-content .modal-body .description {
+        padding: 30px 0;
+    }
+
+    /* WHO WE ARE */
+    .who-card,
+    .rides .who-card {
+        display: block;
+        margin: 0 0 25px 0;
+    }
+    .who-card img,
+    .rides .who-card img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+    }
+    .who-card .caption,
+    .rides .who-card .caption {
+        width: 100%;
+    }
+
+    /* VISITS-FACILITIES */
+    .visits-facilities .opening-hours .schedule .schedule-card {
+        padding: 15px 15px 0 15px;
+    }
+    .visits-facilities .opening-hours .schedule .schedule-card img {
+        display: block;
+        margin: auto;
+    }
+    .visits-facilities .opening-hours .schedule .schedule-card .text {
+        padding: 15px 15px 0 15px;
+        text-align: center;
+        width: 100%;
+    }
+    .visits-facilities .contact-details h3 {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0 0 20px 0;
+    }
+    .visits-facilities .contact-details .address {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .visits-facilities .contact-details .address::before {
+        width: 50%;
+        height: 3px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .visits-facilities .contact-details .address::after {
+        width: 50%;
+        height: 3px;
+        left: 50%;
+        transform: translateX(-50%);
+        right: unset;
+        top: unset;
+        bottom: 0;
+    }
+    .visits-facilities .contact-details .address p {
+        margin: 0;
+    }
+    .visits-facilities .contact-details .phone {
+        display: block;
+        width: 100%;
+        padding: 20px 20px 0 20px;
+        text-align: center;
+    }
+
+    /* PARK MAP */
+    .park-map .tab-content > .active,
+    .rides .tab-content > .active {
+        padding: 25px 0 0 0;
+    }
+
+    /* CELEBRATE - BOOKINGS */
+    .celebrate .cb-card {
+        display: block;
+        margin: 0 0 25px 0;
+    }
+    .celebrate .cb-card img {
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        min-height: unset;
+    }
+    .celebrate .cb-card .caption,
+    .celebrate .cb-card.colored .caption {
+        width: 100%;
+        padding: 20px 30px;
+        text-align: center;
+    }
+    .celebrate .cb-card.colored .caption h4 {
+        padding: 0;
+    }
+    .celebrate .cb-card .caption a,
+    .celebrate .cb-card.colored .action-btns a {
+        margin: 20px auto 0 auto;
+    }
+    .celebrate .cb-card .caption a.download-btn {
+        margin-bottom: 10px;
+    }
+    .celebrate .cb-card.colored .action-btns {
+        display: flex;
+        justify-content: center;
+    }
+    .celebrate .cb-card.colored .action-btns a,
+    .celebrate .cb-card.colored .action-btns a:first-of-type {
+        margin: 0 10px;
+    }
+    .celebrate .cb-card .caption a {
+        font-size: 14px;
+    }
+
+    /* DINE MENU */
+    .dine-menu .dine-item {
+        display: block;
+    }
+    .dine-menu .dine-item img {
+        width: 100%;
+        max-height: 200px;
+    }
+    .dine-menu .dine-item .caption {
+        text-align: center;
+        padding: 30px;
+    }
+    .dine-menu .dine-item .caption .action-btns {
+        display: flex;
+        justify-content: center;
+    }
+    .dine-menu .dine-item .caption .action-btns a,
+    .dine-menu .dine-item .caption .action-btns a:first-of-type {
+        margin: 0 10px;
+        display: unset;
+    }
+    .dine-menu .dine-item .caption .action-btns a,
+    .dine-menu .dine-item .caption .action-btns a:first-of-type {
+        font-size: 14px;
+    }
+    .dine-menu .dine-item .caption .web-btn {
+        width: 100%;
+        margin: 10px auto 0 auto;
+        max-width: 325px;
+    }
+
+    /* CONTACT US */
+    .contact-us .hovering-cards {
+        display: block;
+    }
+    .contact-us .hovering-cards .card {
+        width: 100%;
+        margin: 0 0 20px 0;
+        padding: 30px;
+    }
+    .contact-us .reach-section .career .career-links .career-card {
+        width: 100%;
+    }
+    .contact-us .reach-section .form form {
+        padding: 0;
+    }
+
+    /* SHOWS-EVENTS */
+    /*.shows-events .events .label {margin: 0 auto;}*/
+    .shows-events .events .events-container .swiper-slide {
+        display: block;
+    }
+    .shows-events .events .events-container .swiper-slide img.main-img {
+        width: 100%;
+    }
+    .shows-events .events .events-container .swiper-slide .description {
+        width: 100%;
+        padding: 30px;
+        max-height: 250px;
+    }
+
+    /* OUR CHARACTERS */
+    .characters-section {
+        padding: 50px 0 0 0;
+    }
+    .our-characters h2 {
+        margin: 0 0 30px 0;
+    }
+    .our-characters .custom-btn-next,
+    .our-characters .custom-btn-prev {
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        color: rgba(0, 0, 0, 0.3);
+    }
+    .our-characters .custom-btn-prev {
+        top: 50%;
+        left: 90px;
+        transform: translateX(-100%);
+    }
+    .our-characters .custom-btn-next {
+        top: 50%;
+        right: 90px;
+        transform: translateX(100%);
+    }
+    .our-characters .characters-section .swiper-slide .caption p {
+        width: 75%;
+        margin: auto;
+    }
+    #characters .bubble {
+        top: 50%;
+        background: transparent;
+    }
+    #characters .bubble img {
+        width: 50%;
+    }
+
+    /* RIDES */
+    .rides .rides-slider .custom-btn-prev {
+        transform: translateY(-275%);
+    }
+    .rides .rides-slider .custom-btn-next {
+        transform: translateY(-275%);
+    }
+    .rides .tab-intro {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .page-header .overlay .col-12 .caption {
+        width: 85%;
+    }
+
+    /* RIDES INFO */
+    .ride-info {
+        height: 100%;
+    }
+    .ride-info .info-container .container .swiper-pagination {
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    /* OVERLAY MENU */
+    .overlay-menu .nav-menu li a {
+        font-size: 20px;
+    }
+    .overlay-menu .nav-menu li.has-submenu ul.submenu-nav a {
+        font-size: 16px;
+    }
+
+    /* HOURS MODAL */
+    .overlay-hours-modal .hours-modal .schedule .custom-card img {
+        display: block;
+        margin: auto auto 20px auto;
+    }
+    .overlay-hours-modal .hours-modal .schedule .custom-card ul {
+        padding: 0;
+        text-align: center;
+        display: block;
+    }
+
+    /* TRIPADVISOR MODAL */
+    .overlay-tripadvisor-modal .tripadvisor-modal {
+        width: 90%;
+    }
+    .overlay-tripadvisor-modal .tripadvisor-modal .modal-header {
+        padding: 40px 40px 20px 20px;
+    }
+    .overlay-tripadvisor-modal .tripadvisor-modal .modal-body {
+        padding: 0 20px 40px 20px;
+    }
+
+    /* CUSTOM SHOP MODAL */
+    .single-cat .list-items .product-item {
+        width: 100%;
+    }
+    .single-cat .related a.cat-item {
+        width: 100%;
+    }
+    .single-cat .related a.cat-item figure {
+        height: 75vw;
+    }
+    .celebrate .cb-card .caption a {
+        font-size: 16px;
+    }
+
+    /* HOMEPAGE SLIDERS */
+    .quest-video-section .overlay .caption,
+    .slider-section .swiper-slide .overlay .caption {
+        width: 90%;
+    }
+    .quest-video-section .overlay .caption h2,
+    .slider-section .swiper-slide .overlay .caption h2 {
+        font-size: 40px;
+    }
+    .quest-video-section .overlay .caption h3,
+    .slider-section .swiper-slide .overlay .caption h3 {
+        font-size: 20px;
+    }
+    #characters .bubble {
+        max-width: 90%;
+        padding: 20px;
+    }
+    #characters .bubble img {
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    #characters .bubble .caption {
+        width: 100%;
+    }
+    .slider-section .swiper-pagination .swiper-pagination-bullet,
+    .slider-section .swiper-pagination .swiper-pagination-bullet:hover,
+    .slider-section
+        .swiper-pagination
+        .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        padding: 10px 15px;
+        max-width: 45px;
+        max-height: 45px;
+    }
+    .quest-video-section .overlay .video-control-btn {
+        bottom: 95px;
+    }
+
+    .page-header .header-container .container .caption {
+        left: 30px;
+    }
+    .page-header .header-container .container .caption h1 {
+        width: 85%;
+    }
+
+    /* CELEBRATE - BOOKINGS */
+    .celebrate .cb-card.colored .action-btns {
+        display: block;
+    }
+    .celebrate .cb-card.colored .action-btns a:first-of-type {
+        margin: 0 auto 10px auto;
+    }
+    .celebrate .cb-card.colored .action-btns a {
+        margin: 0 auto;
+    }
+    .celebrate .cb-card .caption a {
+        font-size: 12px;
+    }
+
+    /* DINE MENU */
+    .dine-menu .dine-item .caption .action-btns {
+        display: block;
+    }
+    .dine-menu .dine-item .caption .action-btns a:first-of-type {
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    .dine-menu .dine-item .caption .action-btns a {
+        display: block;
+        margin: 0 auto;
+        width: 175px;
+    }
+    .dine-menu .dine-item .caption .action-btns a,
+    .dine-menu .dine-item .caption .action-btns a:first-of-type {
+        font-size: 12px;
+    }
+    .dine-menu .dine-item .caption .web-btn {
+        width: fit-content;
+    }
+
+    /* SHOWS-EVENTS */
+    .shows-events .upcoming-events .title h2 {
+        text-align: center;
+        width: 100%;
+    }
+    .shows-events .upcoming-events .title .pagination {
+        float: unset;
+        display: block;
+        margin: 10px auto 0 auto;
+    }
+    .shows-events .upcoming-events .title .pagination .custom-btn-next,
+    .shows-events .upcoming-events .title .pagination .custom-btn-prev {
+        width: 45px;
+        height: 45px;
+        margin: 0 10px;
+    }
+
+    .our-characters .characters-section .swiper-slide .caption p {
+        width: 100%;
+    }
+    .park-map .buttons li a,
+    .rides .buttons li a,
+    .faqs .buttons li a {
+        height: 45px;
+    }
+}
+
+@media (max-width: 450px) {
+    /* RIDES */
+    /*.rides .rides-slider .custom-btn-prev, .rides .rides-slider .custom-btn-next {display: none;}*/
+    .rides .rides-slider .custom-btn-prev {
+        transform: translateY(-190%);
+    }
+    .rides .rides-slider .custom-btn-next {
+        transform: translateY(-190%);
+    }
+
+    /* HOMEPAGE SLIDERS */
+    .slider-section .swiper-slide .overlay .caption a,
+    #characters .bubble .caption a {
+        margin: 5px auto;
+        padding: 10px 15px;
+    }
+    .slider-section .swiper-slide {
+        height: 100vh !important;
+    }
+
+    /* SLIDERS PAGES HEADERS */
+    .page-header .header-container .container .swiper-pagination {
+        bottom: 85px;
+        right: 0px;
+        transform: rotate(90deg);
+    }
+    .gallery .gallery-slider-container .container .swiper-pagination {
+        bottom: 85px;
+        right: 0px;
+        transform: rotate(90deg);
+    }
+
+    /* WHO WE ARE */
+    .who-card .caption a,
+    .rides .who-card .caption a {
+        margin: 5px auto;
+        padding: 10px 15px;
+    }
+
+    /* VISITS-FACILITIES */
+    .visits-facilities .opening-hours .schedule .schedule-card {
+        padding: 5px;
+        vertical-align: top;
+    }
+    .visits-facilities .opening-hours {
+        margin: 30px 0 0 0;
+    }
+
+    /* SHOWS-EVENTS */
+    .shows-events .events .events-container .swiper-slide .description {
+        max-height: 300px;
+    }
+
+    /* GALLERY */
+    .gallery .gallery-slider-container .caption {
+        bottom: 85px;
+        left: 20px;
+    }
+
+    /* ALERT */
+    .alert-section {
+        padding: 10px 0;
+    }
+    .alert-section p span.bolder {
+        font-size: 14px;
+    }
+    .alert-section p span {
+        font-size: 12px;
+    }
+    /* RIDES */
+    /*.rides .rides-slider .custom-btn-prev {left:49%;transform: translateX(-100%);top:41%;}*/
+    /*.rides .rides-slider .custom-btn-next {right:49%;transform: translateX(100%);top:41%;}*/
+
+    /* FAQs */
+    .accordion > .card .card-header h2 {
+        padding: 12px 10px;
+    }
+    .accordion > .card .card-header .sign {
+        right: 10px;
+    }
+    .accordion > .card .card-header .btn.btn-link {
+        padding: 12px 16px 12px 0;
+    }
+}
+
+@media (max-width: 350px) {
+    /* PARK MAP */
+    .park-map .buttons li,
+    .rides .buttons li,
+    .faqs .buttons li {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* LOCATION MODAL */
+    .overlay-location-modal .location-modal {
+        top: 70%;
+    }
+    /* HOURS MODAL */
+    .overlay-hours-modal .hours-modal {
+        top: 70%;
+    }
+    .header .inner-container .tickets-btn {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    /* TRIPADVISOR MODAL */
+    .overlay-tripadvisor-modal .tripadvisor-modal {
+        top: 80%;
+    }
+
+    /* VISITS-FACILITIES */
+    .visits-facilities .opening-hours {
+        padding: 30px 5px;
+    }
+
+    /* CONTACT US */
+    .contact-us .reach-section .career .career-links .career-card {
+        padding: 40px 15px;
+    }
+
+    /* SHOWS-EVENTS */
+    .shows-events .events .label {
+        padding: 20px 10px 40px 10px;
+    }
+}
+/***
+changes by nizar 08-06-2023
+
+****/
+@media (max-width: 992px) {
+    footer .bottom-footer {
+        margin-bottom: 30px;
+    }
+    footer .privacy-policy-link {
+        display: flex;
+        position: relative;
+        transition: 0.2s all ease-in-out;
+        bottom: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: Montserrat-Regular, sans-serif;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+}
