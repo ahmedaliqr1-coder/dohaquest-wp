@@ -18,17 +18,22 @@ RUN a2enmod rewrite && sed -i 's/AllowOverride None/AllowOverride All/g' /etc/ap
 # Copy theme
 COPY wp-content/themes/dohaquest /var/www/html/wp-content/themes/dohaquest
 
-# Copy scripts
+# Copy scripts and config
 COPY init.sql /var/www/html/init.sql
 COPY apply-settings.php /var/www/html/apply-settings.php
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-RUN chmod +x /usr/local/bin/entrypoint.sh
+COPY wp-config.php /var/www/html/wp-config.php
+COPY setup.sh /usr/local/bin/setup.sh
+RUN chmod +x /usr/local/bin/setup.sh
 
 # Permissions
 RUN chown -R www-data:www-data /var/www/html/wp-content \
-    && chmod -R 755 /var/www/html/wp-content
+    && chmod -R 755 /var/www/html/wp-content \
+    && chown www-data:www-data /var/www/html/wp-config.php
 
 EXPOSE 80
 
-ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
-CMD ["apache2-foreground"]
+# Use custom entrypoint that runs setup in background then starts Apache
+COPY entrypoint.sh /usr/local/bin/custom-entrypoint.sh
+RUN chmod +x /usr/local/bin/custom-entrypoint.sh
+
+ENTRYPOINT ["/usr/local/bin/custom-entrypoint.sh"]
